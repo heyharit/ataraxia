@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "513250751273",
+    "project_id": "theataraxia",
+    "storage_bucket": "theataraxia.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513250751273:android:0353a0b305fb87f178bd38",
+        "android_client_info": {
+          "package_name": "com.themadbrogrammers.ataraxia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClYhA0MyliMV3L_hSiZKMY9Rf7Jpl6iLE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

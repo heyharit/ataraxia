@@ -1,0 +1,85 @@
+name: ataraxia
+description: "A philosophically stoic wallpaper sanctuary"
+publish_to: 'none'
+
+version: 1.1.10+20
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  wallpaper_manager_flutter: ^1.0.1
+  path_provider: ^2.1.5
+  shared_preferences: ^2.2.2
+  crypto: ^3.0.3
+  bip39: ^1.0.6
+  uuid: ^3.0.6
+  supabase_flutter: ^2.5.0
+  http: ^1.2.0
+  url_launcher: ^6.2.5
+  
+  share_plus: ^7.2.1
+  file_picker: ^8.0.0
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^5.0.0
+  flutter_staggered_grid_view: ^0.7.0
+  cached_network_image: ^3.3.0
+  shimmer: ^3.0.0
+
+  workmanager: ^0.6.0-rc.1
+  home_widget: ^0.7.0
+  async_wallpaper: ^2.0.0
+  image: ^4.1.0
+
+  sensors_plus: 4.0.2
+  flutter_displaymode: ^0.6.0
+
+  palette_generator: ^0.3.3+3
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.3.2
+  google_mobile_ads: ^6.0.0
+  firebase_core: ^4.5.0
+  firebase_remote_config: ^6.2.0
+  package_info_plus: ^9.0.0
+  connectivity_plus: ^7.0.0
+  visibility_detector: ^0.4.0+2
+
+  purchases_flutter: ^9.15.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_native_splash: ^2.4.0
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png"
+  adaptive_icon_background: "#000000"
+  adaptive_icon_foreground: "assets/app_icon_foreground.png"
+
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - assets/images/
+  assets:
+    - assets/transparent.png
+    - assets/app_icon_foreground.png
+
+    # - images/a_dot_burr.jpeg  # remove unless this path actually exists
+
+flutter_native_splash:
+  color: "#000000"
+  # Use a simple logo or leave blank for a pure black "void" start
+  image: assets/begin.png 
+  android_12:
+    color: "#000000"
+  web: false
